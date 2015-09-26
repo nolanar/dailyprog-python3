@@ -31,7 +31,7 @@ def main():
     with open(sys.argv[1], 'r') as f:
         blueprint = f.read()
     
-    # 2D-array of 1 (if BLUEPRINT) and 0 (otherwise)) from blueprint.
+    # 2D-array of 1 (if BLUEPRINT) and 0 (otherwise) from blueprint.
     heights = [[1 if ch == BLUEPRINT else 0 for ch in line] for line in blueprint.split('\n')]
     
     # Add rows to give list of tower heights.
