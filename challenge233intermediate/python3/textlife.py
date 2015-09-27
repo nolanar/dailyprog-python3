@@ -19,7 +19,8 @@ def main():
     matrix = [row + [' '] * (width - len(row)) for row in matrix]
     game = State(matrix)
     game.iterate()
-    print('\n', game, sep='')
+    with open('output--' + sys.argv[1], 'w') as f:
+        f.write(str(game))
 
 class State:
     """Object representing the current state of the game.
