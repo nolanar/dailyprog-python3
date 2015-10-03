@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """[2015-09-21] Challenge #233 [Easy] The house that ASCII built
 
