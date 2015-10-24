@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""2015-10-14] Challenge #236 [Intermediate] Fibonacci-ish Sequence
+"""[2015-10-14] Challenge #236 [Intermediate] Fibonacci-ish Sequence
 
 r/dailyprogrammer - https://redd.it/3opin7
 """
